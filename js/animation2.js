@@ -72,13 +72,13 @@ document.addEventListener("DOMContentLoaded", function () {
   
           // 2秒後にリンク移動
           setTimeout(() => {
-            window.location.href = "/about-me";
+            window.location.href = "https://name-about-me.netlify.app/";
           }, 1000);
         });
       });
     }
   });
-
+  
   document.addEventListener("DOMContentLoaded", function () {
     const aboutMeButtons = document.querySelectorAll(".Works-button");
   
@@ -96,13 +96,13 @@ document.addEventListener("DOMContentLoaded", function () {
   
           // 2秒後にリンク移動
           setTimeout(() => {
-            window.location.href = "/works";
+            window.location.href = "https://name-works.netlify.app/";
           }, 1000);
         });
       });
     }
   });
-
+  
   document.addEventListener("DOMContentLoaded", function () {
     const aboutMeButtons = document.querySelectorAll(".index-button");
   
@@ -120,12 +120,13 @@ document.addEventListener("DOMContentLoaded", function () {
   
           // 2秒後にリンク移動
           setTimeout(() => {
-            window.location.href = "/index";
+            window.location.href = "https://lndex-2.netlify.app/";
           }, 1000);
         });
       });
     }
   });
+  
 
 
 
